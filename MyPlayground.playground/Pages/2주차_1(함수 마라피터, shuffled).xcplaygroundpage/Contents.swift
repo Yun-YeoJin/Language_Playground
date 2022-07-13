@@ -4,7 +4,6 @@ import UIKit
 func setNickname() -> Void {
     print("개발하는 윤기사")
 }
-
 setNickname()
 
 // 매개변수 있는 함수

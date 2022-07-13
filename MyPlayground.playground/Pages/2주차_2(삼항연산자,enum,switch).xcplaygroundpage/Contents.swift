@@ -14,7 +14,6 @@ type(of: email2)
 var array = Array(repeating: 0, count: 100)
 print(array)
 var array2: [Int]? = [Int](1...100)
-print(array2)
 type(of: array2)
 
 //옵셔널 체이닝(?) & 강제 언래핑(!)
@@ -99,14 +98,6 @@ default:
 }
 
 gender.rawValue
-
-//  if gender == 0 {
-//    print("남자")
-//} else if gender == 1 {
-//    print("여자")
-//} else if gender == 2 {
-//    print("선택안함")
-//}
 
 enum HTTPCode: Int {
     case OK // 0

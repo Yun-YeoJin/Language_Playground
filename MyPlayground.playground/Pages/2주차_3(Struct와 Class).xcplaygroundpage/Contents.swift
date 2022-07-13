@@ -15,7 +15,6 @@ class Monster {
 }
 }
 
-
 var easyMonster = Monster() // 위와 같이 초기화 된 것.(instance)
 
 easyMonster.clothes
@@ -23,11 +22,10 @@ easyMonster.power
 easyMonster.attack()
 easyMonster.attack()
 
-
 // 위 Monster class를 상속받아서 쓴다.
 class BossMonster: Monster {
     var levelLimit = 500
-
+    
     func bossAttack() {
         print("$$스페셜공격$$")
     }
@@ -45,7 +43,6 @@ finalBoss.power
 finalBoss.attack()
 
 // 구조체는 값 타임, 클래스는 참조 타입
-
 
 var nickname = "고래밥"
 var subnickname = nickname
